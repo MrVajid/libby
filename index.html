@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <script src="https://kit.fontawesome.com/24d04404fe.js" crossorigin="anonymous"></script>
+    <title>Libby</title>
+</head>
+<body>
+    <header>
+        <h1>Libby</h1>
+        <button type="button" id="new-book">Add Book</button>
+    </header>
+    <dialog id="book-form">
+        <form>
+            <p>
+                <label for="book-name">Book Name: </label>
+                <input type="text" id="book-name" maxlength="50" name="bookName" required>
+            </p>
+            <p>
+                <label for="author-name">Author Name: </label>
+                <input type="text" id="author-name" maxlength="50" name="authorName" required>
+            </p>
+            <p>
+                <label for="pages">Pages: </label>
+                <input type="number" id="pages" name="pages" required>
+            </p>
+            <p>
+                <label for="isRead">Book Name: </label>
+                <input type="checkbox" id="isRead" name="read">
+            </p>
+            <div class="form-actions">
+                <button type="submit" id="submit" value="default">Add Book</button>
+                <button type="button" id="cancel">Cancel</button>
+            </div>
+        </form>
+    </dialog>
+    <div class="card-container">
+    </div>
+    <footer>
+        <p>Library app by MrVajid <a href="https://github.com/mrvajid">
+            <i class="fab fa-github fa-lg" style="color: #74C0FC;"></i></a>
+        </p>   
+    </footer>
+</body>
+</html>
