@@ -42,7 +42,7 @@ header > h1 {
 }
 .card {
     display: grid;
-    grid-template-rows: 1fr 2rem 1.5rem;
+    grid-template-rows: 1fr 2rem 2rem;
     grid-auto-flow: row;
     border-radius: 12px;
     box-shadow: 0px 0px 8px 6px rgba(196, 197, 197, 0.66);
@@ -82,7 +82,7 @@ header > h1 {
 }
 .rating > p {
     margin: 0;
-    padding: 0;
+    padding: 4px 0;
     align-self: center;
     justify-self: center;
 }
